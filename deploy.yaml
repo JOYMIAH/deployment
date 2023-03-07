@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo
-        image: jooymiah1/todo_app:32
+        image: jooymiah1/todo_app:${IMAGE_TAG}
         ports:
         - containerPort: 8000
 
