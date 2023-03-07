@@ -12,11 +12,11 @@ spec:
   template:
     metadata:
       labels:
-        app: nginxs
+        app: nginx
     spec:
       containers:
       - name: todo
-        image: abhishekf5/cicd-e2e:33
+        image: jooymiah1/todo_app:32
         ports:
         - containerPort: 8000
 
