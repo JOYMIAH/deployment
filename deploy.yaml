@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: jooymiah1/todo_app:${env.BUILD_NUMBER}
+        image: joymiah1/todo_app:${env.BUILD_NUMBER}
         - containerPort: 8000
 
